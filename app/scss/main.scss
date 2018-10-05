@@ -1,0 +1,11 @@
+// colors 
+$blue : #3587e0;
+$green : #42be56;
+$black :  #333333;
+$yellow :  #fab91c;
+
+// start main less
+@import "./general/normalize";
+@import "./general/settings";
+
+@import "./pages/page-test";
