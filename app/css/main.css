@@ -693,6 +693,8 @@ a {
     background-color: #42be56;
     width: 154px;
     height: 40px; }
+    .box .book-now:hover {
+      background-color: #287a35; }
 
 .add-block_rates {
   padding-top: 28px;
@@ -713,13 +715,21 @@ a {
   padding: 10px;
   height: 34px;
   -webkit-border-radius: 4px;
-          border-radius: 4px; }
+          border-radius: 4px;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear; }
+  .btn.active {
+    -webkit-box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.5); }
   .btn_card {
     width: 150px;
     margin-left: -6px;
     background-color: #fab91c;
     position: relative;
     z-index: 5; }
+    .btn_card:hover {
+      background-color: #dca725; }
 
 .hint {
   width: 15px;

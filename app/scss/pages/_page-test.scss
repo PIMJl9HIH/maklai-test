@@ -288,6 +288,9 @@
 		background-color: $green;
 		width: 154px;
 		height: 40px;
+		&:hover {
+			background-color: #287a35;
+		}
 	}
 
 }
@@ -320,6 +323,10 @@
 	height: 34px;
 	border-radius: 4px;
 	@extend %shared-roboto-bold;
+	transition: 0.5s linear;
+	&.active {
+		box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.5);
+	}
 	
 	&_card {
 		width: 150px;
@@ -327,6 +334,9 @@
 		background-color: $yellow;
 		position: relative;
 		z-index: 5;
+		&:hover {
+			background-color: #dca725;
+		}
 	}
 }
 
